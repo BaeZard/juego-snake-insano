@@ -20,8 +20,9 @@ div .tituloSnake{
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "BLED" 0,
-      "SCAN" 0;
+    "BLED" 0,
+    "SCAN" 0;
+    transition: font-size 0.5s;
 }
 
 div .tituloSnake:hover{
