@@ -36,7 +36,8 @@ div .tituloSnake:hover{
 }
 
 .juego{
-    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
@@ -52,23 +53,29 @@ div .tituloSnake:hover{
 }
 
 .botonStart{
-    background-color: rgb(44, 114, 53);
+    background-color: transparent;
+    color: white;
     font-family: "Workbench", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    text-decoration: underline;
     font-variation-settings:
     "BLED" 0,
     "SCAN" 0;
     height: 80%;
-    padding: 0.5em 4em;
-    font-size: 2em;
+    padding: 0.4em 3em;
+    font-size: 2.3em;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-radius: 10px;
     border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
 }
 
 .botonStart:hover{
     background-color: rgb(166, 182, 26);
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.6s;
 }
