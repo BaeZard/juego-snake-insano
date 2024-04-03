@@ -12,32 +12,63 @@ body{
     border: 1px solid black
 }
 
-div .tituloSnake{
+div .tituloSnake{  
+    padding: 0.3em 0 0 0;
     text-align: center;
-    font-size: 60px;
-    padding: 20px 0 20px 0;
+    font-size: 4em;
     font-family: "Workbench", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
     "BLED" 0,
     "SCAN" 0;
-    transition: font-size 0.5s;
+    transition: transform 0.3s ease
 }
 
 div .tituloSnake:hover{
-    font-size: 50px;
-    transition: font-size 0.5s;
+    transform: scale(1.1);
+    transition: transform 0.3s ease
 }
 
 /*cuerpo de juego*/
-
 .juegoPlantilla{
+    padding: 5% 0 0 0;
+}
+
+.juego{
     border: 1px solid black;
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 800px;
+    width: 60%;
+}
+
+/* BOTON START*/
+
+.cuerpoBoton{
+    padding: 1% 0 0 0;
+}
+
+.botonStart{
+    background-color: rgb(44, 114, 53);
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    height: 80%;
+    padding: 0.5em 4em;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+
+.botonStart:hover{
+    background-color: rgb(166, 182, 26);
 }
